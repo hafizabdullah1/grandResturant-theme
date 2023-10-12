@@ -1,0 +1,502 @@
+@media screen and (min-width:320px) and (max-width:640px) {
+    
+
+    /* nav navigatioin + main menu */
+
+    /* *{
+        border:1px solid red;
+    } */
+
+nav img{
+    left: 20px;
+    top: 20px;
+    height: 5vh;
+}
+nav ul{
+    display: none;
+}
+.main{
+    background-size: 140% 120%;
+}
+.style{
+    font-size: 3.5vw;
+    left: 30px;
+}
+.main h1{
+    left: 30px;
+    font-size: 6vw;
+    bottom: 35%;
+}
+.main p{
+    left: 30px;
+    bottom: 31%;
+    font-size: 1.5vw;
+}
+nav .fa-list{
+    right: 20px;
+    top: 30px;
+}
+nav button{
+    display: none;
+}
+
+    /* navbar + mainpage :end */
+
+    /* second section */
+
+
+.until{
+    width:90vw;
+    height: 200vh;
+}
+.until h1{
+    width:90vw;
+    left:0px;
+    font-size: 1.8rem;
+    height: auto;
+}
+.until h6{
+    font-size: .8rem;
+    padding-left: 30vw;
+}
+.until h3{
+    font-size: 33px;
+    left: 35%;
+}
+.img{
+    height: auto;
+    width: auto;
+    left: 0;
+}
+.until img{
+    width: 100%;
+    height: auto;
+}
+.discover{
+    float: left;
+    left: 0px;
+    margin-top: 20%;
+    width: 88%;
+    padding: 20px;
+    height: fit-content;
+}
+.discover h4{
+    font-size: 25px;
+    padding-left: 0px;
+
+}
+.discover h2{
+    line-height: .8;
+    top: 50px;
+    left: 20px;
+}
+.discover p{
+    width: auto;
+    left: 20px;
+    height: auto;
+}
+
+    /* SECOND SECTION END */
+
+    /* THIRD   section */
+
+
+.menu{
+    flex-direction: column;
+}
+.rate{
+    width: 90vw;
+    padding-top: 20vh;
+    box-sizing: border-box;
+}
+.rate h3{
+   bottom: 50px;
+   left: 0;
+}
+.rate b{
+    bottom: 50px;
+    right: 20px;
+}
+.rate pre{
+    display: none;
+}
+.rate button{
+    display: none;
+}
+.rate .star{
+    display: none;
+}
+.rate::after{
+    top: 0;
+}
+
+    /* THIRD SECTION END */
+
+    /* FORTH AND FIFTH  SECTION START */
+
+
+.plate{
+    height: 40vh !important;
+    width: 80vw !important;
+    left:30px !important;
+}
+.baked{
+    left: 0;
+}
+.baked div{
+    height: 22vh;
+    width: 70vw;
+}
+.baked h5{
+ top: 20px;
+}
+.baked p{
+    right: 0px;
+}
+.baked span{
+    width: 55px;
+    line-height: 1.6;
+    top: 70px;
+}
+.baked .star{
+    right: 0 !important;
+}
+.baked button{
+    right: 30px;
+    width: 20%;
+}
+.plate2{ 
+    overflow: visible !important;
+    margin-top: 50vh;
+    left: 0 !important;
+}
+.plate2 img{
+    height: 80%;
+    width: 100%;
+    left: -30px;
+    top: 50px;
+}
+    /* FORTH AND FIFTH SECTION END */
+
+    /* SIXTH SECTION START */
+
+.until2 .discover{
+    height: 45vh !important;
+}
+.until2 .img{
+    top: 400px;
+    left: -10px !important;
+}
+.until2 .discover{
+    left: 0;
+}
+.until2 .discover .style{
+    left: 10px;
+}
+.until2 .discover h2{
+    left: -10px !important;
+    font-size: 15vw;
+}
+.until2 .discover p{
+    left: 0px !important;
+}
+.until2 button{
+    display: none;
+}
+    /* SIXTH SECTION END */
+
+    /* FOOTER START */
+
+
+.footer{
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.footer div{
+    height: 40vh;
+    width: 93vw;
+}
+.white{
+    width:30vw;
+}
+.experience h2{
+    font-size: 15vw !important;
+}
+.copy{
+    height: 30vh;
+
+}
+.copy h6{
+    bottom: 50px;
+    line-height: 1.5;
+    left: 30px;
+    width: 60vw;
+}
+.copy li{
+    line-height: 1.6;
+}
+}
+
+    /* FOOTER END */
+
+
+    /* RESPONSIVE SCREEN IN 320PX TO 640PX END*/
+
+/* --------------------------------------------------- */
+
+    /* RESPONSIVE SCREEN IN 768PX TO 920PX START */
+
+
+@media screen and (min-width:768px) and (max-width:920px){
+/* 
+    *{
+        border: 1px solid red;
+    } */
+nav ul{
+    display: none;
+}
+.fa-list{
+    right: 20px;
+}
+nav button{
+    right: 60px;
+    width: 14vw;
+}
+.until{
+    width: 97vw;
+    height: 190vh;
+}
+.until h1{
+    width: 90vw;
+    left: 30px;
+    font-size: 3vw;
+}
+.until h6{
+    font-size: 1vw;
+}
+.until h3{
+    left: 42%;
+}
+.until .img{
+    width: 90vw;
+    left: 0;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+.until .img img{
+    height: 70vh;
+    width: 100%;
+}
+.discover{
+    height: 50vh;
+    width: 100vw;
+    left: 0;
+}   
+.discover p{
+    width: 90vw;
+}
+.rate{
+    width: 48vw;
+}
+.plate {
+    width: 100%;
+    left: 0;
+}
+.plate img{
+    width: 100%;
+}
+.baked{
+    width: 100%;
+    left: 0;
+}
+.plate2 img{
+    left: 170px;
+}
+.fb{
+    font-size: 20px;
+    margin-left: 5px;
+    top:250px
+}
+.copy ul{
+    right: 20px;
+    top: 25px;
+}
+.copy h6{
+    left: 20px;
+}
+}
+
+        /* RESPONSIVE SCREEN IN 768PX TO 920PX END*/
+
+/* --------------------------------------------------- */
+
+    /* RESPONSIVE SCREEN IN 641PX TO 767PX START */
+
+
+
+@media screen and (min-width:641px) and
+(max-width:767px){
+
+    *{
+        /* border: 1px solid red; */
+    }
+    nav button{
+        display: none;
+    }
+    nav ul{
+        display: none;
+    }
+    .fa-list{
+        right: 20px;
+    }
+    nav button{
+        right: 60px;
+        width: 14vw;
+    }
+    .main h1{
+        font-size: 8vw !important;
+    }
+    .main p{
+        font-size: 2.2vw;
+    }
+    .until{
+        width: 97vw;
+        height: 190vh;
+    }
+    .until h1{
+        width: 90vw;
+        left: 30px;
+        font-size: 3vw;
+    }
+    .until h6{
+        font-size: 1vw;
+    }
+    .until h3{
+        left: 42%;
+    }
+    .until .img{
+        width: 90vw;
+        left: 0;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .until .img img{
+        height: 70vh;
+        width: 100%;
+    }
+    .discover{
+        height: 50vh;
+        width: 100vw;
+        left: 0;
+    }   
+    .discover p{
+        width: 90vw;
+    }
+    .rate{
+        width: 100vw;
+    }
+    .plate {
+        width: 100%;
+        left: 0;
+    }
+    .plate img{
+        width: 100%;
+    }
+    .baked{
+        width: 100%;
+        left: 0;
+    }
+    .plate2 img{
+        left: 170px;
+    }
+
+        /* .footer{
+            flex-direction: column;
+            justify-content:flex-start;
+        } */
+        .footer{
+            height: auto;
+            flex-direction: column;
+        }
+    .footer div{
+        height: 40vh;
+        width: 93vw;
+        /* flex-direction: column !important; */
+    }
+    
+    .copy{
+        height: 15vh;
+    }
+    .copy ul{
+        left: 60px;
+        top: 20px;
+    }
+    .copy h6{
+        left: 80px;
+        top: 45px;
+    }
+    /* *{
+        border: 1px solid red;
+    } */
+}
+
+
+
+    /* RESPONSIVE SCREEN IN 641PX TO 767PX END*/
+
+/* --------------------------------------------------- */
+
+    /* RESPONSIVE SCREEN IN 920PX TO 1200PX START */
+
+
+@media screen and (min-width:920px) and
+(max-width:1150px){
+
+
+
+nav img{
+    left: 40px;
+}
+nav ul{
+    left: 18%;
+    top: 65px;
+}
+nav button{
+    top: 55px;
+    right: 50px;
+    font-size: 1.1vw;
+}
+nav .fa-list{
+    right: 10px;
+    top: 60px;
+}
+.until .img{
+height: 46vw;
+/* width: 0vw; */
+}
+.discover{
+    height: 50vw;
+}
+.rate{
+    width: 24.1vw;
+}
+.until2 .discover{
+    height: 70vh;
+    top: 50px;
+}
+.until{
+    width: 97vw;
+}
+.fb{
+    top: 230px;
+    left: -5px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+
+}

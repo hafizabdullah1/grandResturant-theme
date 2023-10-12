@@ -1,0 +1,646 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    /* border: 1px solid red; */
+}
+
+        /* MAIN + NAVBAR */
+
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./max-themes_net/slide1_bg.jpg);
+    background-size: 100% 140%;
+}
+nav{
+    height: fit-content;
+    width: 100%;
+    /* background: #000; */
+    position: relative;
+    /* border: 1px solid red; */
+    height:16vh;
+}
+nav img{
+    position: absolute;
+    top: 55px;
+    height: 5.5vh;
+    left: 85px;
+}
+nav ul{
+    list-style-type: none;
+    position: relative;
+    left: 35%;
+    top: 53%;
+    width: fit-content;
+}
+nav .home{
+    color: white;
+    float: left;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: .7rem;
+    /* border: 1px solid red; */
+    height: 60px;
+    cursor: pointer;
+    width: 80px;
+    position: relative;
+}
+.home .drop{
+    position: relative;
+    background: #000;
+    width: 16vw;
+    left: -20px;
+    top: 40px;
+    display: none;
+}
+.home li{
+    height: 30px;
+    border-top: 1px solid rgba(128, 128, 128, 0.377);
+    color: white;
+    /* padding: 20px; */
+    padding-top: 12px;
+    padding-left: 20px;
+    font-size: .85rem;
+    transition: 1s;
+    position: relative;
+}
+.home li:hover{
+    background-color: rgba(128, 128, 128, 0.777);
+    transition: 1s;
+    cursor: pointer;
+}
+.home:hover .drop{
+    display: block;
+}
+.home div{
+    height: 39.6vh;
+    width: 88vw;
+    background: #000;
+    position: absolute;
+    left: -45vw;
+    display: flex;
+    justify-content: space-between;
+    top: 60px;
+    display: none;
+
+}
+.home div ul{
+    position: relative;
+    left: 0;
+    width: fit-content;
+    top: 15px;
+}
+.home div li{
+    width: 27.5vw;
+    font-size: .8rem;
+    border-right: 1px solid rgba(128, 128, 128, 0.406);
+    border-top: none;
+}
+.home div li:nth-child(1){
+    font-size: .9rem;
+    font-weight: bold;
+}
+.home div li:nth-child(1):hover{
+    background-color: #000;
+}
+.home:hover div{
+    display: flex;
+}
+.down{
+    height: 25vh !important;
+    left: -65vw !important;
+    display: none !important;
+    z-index: 4;
+}
+.down ul{
+    width: 50% !important;
+    /* border: 1px solid red; */
+    height: fit-content;
+}
+.down li{
+    width: 96.3% !important;
+}
+.down li:nth-child(1):hover{
+    background-color: rgba(128, 128, 128, 0.777) !important;
+}
+.home:hover .down{
+    display: flex !important;
+}
+.style{
+    font-size: 2.1rem;
+    position: absolute;
+    color: #BA9566;
+    bottom: 42%;
+    left: 80px;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+}
+
+.main h1{
+    color: white;
+    font-size: 3.8rem;
+    position: absolute;
+    bottom: 30%;
+    left: 80px;
+}
+.headspan{
+    font-weight: normal;
+}
+.main p{
+    color: white;
+    position: absolute;
+    bottom: 22%;
+    left: 80px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+nav button{
+    height: 6vh;
+    width: 10vw;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    right: 160px;
+    top: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.fa-list{
+    color: white;
+    position: absolute;
+    right: 110px;
+    top: 47px;
+    font-size: 25px;
+}
+
+        /* MAIN + NANVBAR END */
+
+/* section number two */
+
+
+.until{
+    height: 170vh;
+    width: 98.4vw;   
+    position: relative; 
+}
+.until h1{
+    text-align: center;
+    width: 60vw;
+    /* color: white; */
+    font-weight: normal;
+    line-height: 2;
+    position: relative;
+    left: 250px;
+    top: 80px;
+}
+.until h6{
+    padding-left: 42%;
+    padding-top: 15vh;
+    /* color: red; */
+    letter-spacing: 1px;
+    font-size: .9vw;
+    width: fit-content;
+}
+.until h3{
+    position: relative !important;
+    left: 44%;
+    width: fit-content;
+    top: 20px;
+}
+.img{
+    height: 98vh;
+    width: 53vw;
+    float: left;
+    padding: 20px;
+    position: relative;
+    left: 80px;
+    top: 100px ;
+}
+.until img{
+    width: 100%;
+    height:100%;
+    left: 80px;
+}
+.discover{
+   height: 65vh;
+   position: relative;
+   margin-top: 10%;
+   background-color: #fff;
+   left: -10%;
+   float: right;
+}
+.discover h4{
+    top: 30px;
+    left: 40px;
+    font-size: 3rem;
+}
+.discover>h2{
+    font-weight: normal;
+    font-size: 3.5rem;
+    position:relative;
+    left: 40px;
+    top: 77px;
+    width: fit-content;
+}
+.discover p{
+    width:36vw;
+    position: relative;
+    top: 60px;
+    left: 40px;
+    font-size: .9rem;
+    line-height: 1.6;
+}
+.discover p span{
+   height: 40px;
+   display: inline-block;
+   padding-top: 10px;
+}
+.experience{
+    height: 60vh;
+    width: 100%;
+    background-image: url(/max-themes_net/223_1r140806_eat_spots_sobanndls.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+
+.experience h3{
+    position: static;
+    text-align:center;
+    font-size: 3rem;
+    padding-top: 16%;
+}
+.experience h2{
+    text-align: center;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: normal;
+}
+
+
+/* third section */
+
+ /* 8 cards with display flex  */
+
+
+
+.menu
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.rate{
+    height: 70vh;
+    position: relative;
+    background-color: #fff;
+    width: 24.85%;
+}
+.rate h3{
+    position: absolute;
+    bottom: 45px;
+    font-size: 1rem;
+    left: 10px;
+}
+.rate pre{
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+    font-size: .8rem;
+}
+.rate b{
+    position: absolute;
+    right: 10px;
+    bottom: 45px;
+}
+.mag{
+    color: white;
+    position: absolute;
+    z-index: 1;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 100px;
+    background: #00000068;
+    left: 42%;
+    top: 40%;
+    opacity: 0;
+    transition: .3s;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+.rate:hover .mag{
+    opacity: 1;
+    top: 38%;
+    transition: .8s;
+}
+.rate button{
+    background-color:#BA9566;
+    color: white;
+    position: absolute;
+    bottom: 18px;
+    right: 10px;
+    border-radius: 3px;
+    font-size: .6rem;
+    height: 3vh;
+    width: 3.6vw;
+    cursor: pointer;
+    border: none;
+}
+.mag2 .mag{
+    left: 38%;
+}
+.cart{
+    left:55% !important;
+}
+#rate-2 button{
+    right: 40px;
+}
+#rate-5 button{
+    right: 40px;
+}
+.star{
+    padding: 5px;
+    color: white;
+    position: absolute;
+    background-color: #BA9566;
+    right: 10px;
+    bottom: 18px;
+    font-size: .5rem;
+    border-radius: 3px;
+}
+.rate::after{
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    content: '';
+    /* background: #000; */
+}
+#rate-1::after{
+    background-image: url(/max-themes_net/4ccb9fab-c445-4343-884d-3992a6588e98-620x444-400x400-1433934149.jpeg);
+    background-size: 100% 100%;
+}
+#rate-2::after{
+    background-image: url(./max-themes_net/dl_00_01_021-400x400.jpg);
+    background-size: 100% 100%;
+
+}
+#rate-3::after{
+    background-size: 100% 100%;
+    background-image: url(/max-themes_net/7311365-400x400-1433934292.jpg);
+}
+#rate-4::after{
+    background-size: 100% 100%;
+    background-image: url(/max-themes_net/slide-02_tom-aikens-food-photography-400x400-1433934211.jpg);
+}
+#rate-5::after{
+    background-size: 100% 100%;
+    background-image: url(/max-themes_net/greg-400x400-1433934437.jpg);
+}
+#rate-6::after{
+    background-size: 100% 100%;
+    background-image: url(/max-themes_net/indian\ food.jpg);
+}
+#rate-7::after{
+    background-image: url(./max-themes_net/bistro.jpg);
+    background-size: 100% 100%;
+
+}
+#rate-8::after{
+    background-image: url(./max-themes_net/223_1r140806_eat_spots_sobanndls-400x400-1433934069.jpg);
+}
+.experience2{
+    background-image: url(/max-themes_net/dl_00_01_021.jpg);
+    position: relative;
+}
+.starter{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.plate{
+    float: left;
+    position: relative;
+    top: 60px;
+    left: 90px;
+    height: 80vh;
+    width: 48%;
+    overflow: hidden;
+}
+.baked{
+    height: 80vh;
+    width:40%;
+    float: left;
+    position: relative;
+    left: 90px;
+    top: 60px;
+}
+.plate img{
+    position: absolute;
+    height: 100%;
+    width: 120%;
+}
+.baked h1{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    border-bottom: 1px solid;
+    height: 40px;
+}
+.baked div {
+    height: 10vh;
+    width: 97%;
+    background: #ffffff;
+    position: relative;
+    top: 130px;
+}
+.baked h5{
+    font-size: 1rem;
+    position: absolute;
+    left: 40px;
+    font-weight: bolder !important;
+}
+.baked span{
+    position: absolute;
+    left: 40px;
+    bottom: 10px;
+    font-size: .8rem;
+} 
+.baked p{
+    position: absolute;
+    right: 70px;
+    top: 0;
+    font-weight: bold;
+}
+.baked .star{
+    right: 70px !important;
+    bottom: 10px;
+}
+.baked button{
+    background-color:#BA9566;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+    border-radius: 3px;
+    font-size: .6rem;
+    height: 3vh;
+    width: 3.6vw;
+    cursor: pointer;
+    border: none;
+}
+.plate2{
+    float: right !important;
+    left: -80px !important;
+    overflow: hidden;
+}
+.plate2 img{
+    left: -120px;
+}
+.until2{
+    height: 120vh;
+}
+.until2 .img{
+    height: 80vh;
+}
+.until2 button{
+    height: 6vh;
+    width: 11vw;
+    color: white;
+    background: #000000e4;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    border: none;
+    font-weight: bold;
+    font-size: .7rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.footer{
+    height:fit-content;
+    padding:20px 0px;
+    background: #262626;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.footer div{
+    height: 40vh;
+    width: 22%;
+    position: relative;
+}
+.white{
+    position: absolute;
+    top: 20px;
+    width: 8vw;
+    
+}
+.fstp{
+    position: absolute;
+    width: 75%;
+    top: 80px;
+    line-height: 1.6;
+    font-size: .9rem;
+    color:grey;
+}
+.fb{
+    position: relative;
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+    top: 70%;
+    left: -10px;
+    transition: .5s;
+    cursor: pointer;
+}
+.fb:hover{
+    color: #BA9566;
+    transition: .8s;
+}
+.fsth5{
+    top: 20px;
+    color: white;
+    position: absolute;
+    font-weight: bolder;
+    font-size: .75rem;
+    letter-spacing: 1px;
+}
+.fstul{
+    list-style-type: none;
+    position: absolute;
+    top: 60px;
+}
+.fstul li{
+    color: white;
+    line-height: 2;
+    font-size: .9rem;
+    font-weight: bold;
+}
+.fstul span{
+    font-size: .6rem;
+    position: relative;
+    top: -8px;
+    color: grey;
+}
+.siximg img{
+    height: 70px;
+    width: 70px;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: relative;
+    top: 50px;
+    left: -5px;
+    cursor: pointer;
+}
+.scndul i{
+    color: grey;
+}
+.scndul li:nth-child(1){
+    color: grey;
+}
+.scndul li:nth-last-child(1){
+    color: grey;
+}
+.scndul li:nth-child(2):hover{
+    color: #BA9566;
+    transition: .6s;
+    cursor: pointer;
+}
+.scndul li:nth-child(3):hover{
+    color: #BA9566;
+    transition: .6s;
+    cursor: pointer;
+}
+.copy{
+    height: 10vh;
+    width: 100%;
+    background: #1B1B1B;
+    position: relative;
+}
+.copy h6{
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+    color: grey;
+    font-size: .7rem;
+    letter-spacing: 1px;
+}
+.copy ul{
+    position: absolute;
+    right: 80px;
+    top: 20px;
+    list-style-type: none;
+}
+.copy li{
+    color: white;
+    font-size: .8rem;
+    float: left;
+    margin-left: 25px;
+    cursor: pointer;
+}
